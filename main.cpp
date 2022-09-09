@@ -1,6 +1,6 @@
-#include <iostream>
+#include "foo.h"
 int main(int argc, char** argv)
 {
-	std::cout << "Hello, World!" << std::endl;
+	hello_world();
 	return 0;
 }
